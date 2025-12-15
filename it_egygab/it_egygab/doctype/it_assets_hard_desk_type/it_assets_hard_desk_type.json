@@ -1,18 +1,12 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:title",
- "creation": "2025-12-14 13:38:21.351355",
+ "creation": "2025-12-15 10:07:39.927300",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title",
-  "cpu",
-  "ram",
-  "column_break_fxjo",
-  "type",
-  "gpu"
+  "title"
  ],
  "fields": [
   {
@@ -22,41 +16,15 @@
    "label": "Title",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "type",
-   "fieldtype": "Select",
-   "label": "Type",
-   "options": "Laptop\nPrinter\nDesktop\nWorkstation",
-   "reqd": 1
-  },
-  {
-   "fieldname": "cpu",
-   "fieldtype": "Data",
-   "label": "CPU"
-  },
-  {
-   "fieldname": "ram",
-   "fieldtype": "Data",
-   "label": "RAM"
-  },
-  {
-   "fieldname": "column_break_fxjo",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "gpu",
-   "fieldtype": "Data",
-   "label": "GPU"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-15 10:25:54.238876",
+ "modified": "2025-12-15 10:11:04.513227",
  "modified_by": "Administrator",
  "module": "It Egygab",
- "name": "IT Asset Model",
+ "name": "IT Assets Hard Desk Type",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
@@ -76,6 +44,5 @@
  "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "title_field": "title"
+ "states": []
 }

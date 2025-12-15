@@ -6,15 +6,18 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title",
   "model",
-  "model_no",
   "serial",
-  "it_user",
-  "location",
+  "model_no",
+  "cpu",
+  "hard_desk",
+  "ram",
+  "gpu",
   "column_break_dwqo",
   "status",
   "type",
+  "it_user",
+  "location",
   "purchase_date",
   "purchase_cost",
   "asset_image",
@@ -42,7 +45,9 @@
   {
    "fieldname": "serial",
    "fieldtype": "Data",
-   "label": "Serial"
+   "in_list_view": 1,
+   "label": "Serial",
+   "reqd": 1
   },
   {
    "fieldname": "model",
@@ -55,14 +60,6 @@
   {
    "fieldname": "column_break_dwqo",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "title",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Title",
-   "reqd": 1,
-   "unique": 1
   },
   {
    "fieldname": "model_no",
@@ -115,6 +112,27 @@
    "fieldname": "description",
    "fieldtype": "Small Text",
    "label": "Description"
+  },
+  {
+   "fieldname": "cpu",
+   "fieldtype": "Data",
+   "label": "CPU"
+  },
+  {
+   "fieldname": "hard_desk",
+   "fieldtype": "Table MultiSelect",
+   "label": "Hard Desk",
+   "options": "IT Assets Hard Desk Type Table"
+  },
+  {
+   "fieldname": "ram",
+   "fieldtype": "Data",
+   "label": "RAM"
+  },
+  {
+   "fieldname": "gpu",
+   "fieldtype": "Data",
+   "label": "GPU"
   }
  ],
  "grid_page_length": 50,
@@ -126,7 +144,7 @@
    "link_fieldname": "asset"
   }
  ],
- "modified": "2025-12-14 16:11:58.721756",
+ "modified": "2025-12-15 10:25:09.613782",
  "modified_by": "Administrator",
  "module": "It Egygab",
  "name": "IT Assets",
@@ -150,6 +168,5 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "title",
  "track_changes": 1
 }

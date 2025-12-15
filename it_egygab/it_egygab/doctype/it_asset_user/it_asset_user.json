@@ -1,13 +1,14 @@
 {
  "actions": [],
- "allow_rename": 1,
- "autoname": "field:full_name",
+ "allow_import": 1,
+ "autoname": "autoincrement",
  "creation": "2025-12-14 13:54:55.508324",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "user_id",
   "full_name",
+  "arabic_name",
   "email",
   "user_id_image",
   "column_break_wzza",
@@ -62,16 +63,21 @@
    "fieldtype": "Link",
    "label": "User Department",
    "options": "IT Asset Department"
+  },
+  {
+   "fieldname": "arabic_name",
+   "fieldtype": "Data",
+   "label": "Arabic Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-14 16:18:55.998337",
+ "modified": "2025-12-15 10:18:07.426926",
  "modified_by": "Administrator",
  "module": "It Egygab",
  "name": "IT Asset User",
- "naming_rule": "By fieldname",
+ "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
   {
