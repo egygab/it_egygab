@@ -115,8 +115,9 @@
   },
   {
    "fieldname": "cpu",
-   "fieldtype": "Data",
-   "label": "CPU"
+   "fieldtype": "Link",
+   "label": "CPU",
+   "options": "IT Assets CPU Type"
   },
   {
    "fieldname": "hard_desk",
@@ -126,13 +127,15 @@
   },
   {
    "fieldname": "ram",
-   "fieldtype": "Data",
-   "label": "RAM"
+   "fieldtype": "Link",
+   "label": "RAM",
+   "options": "IT Assets RAM Type"
   },
   {
    "fieldname": "gpu",
-   "fieldtype": "Data",
-   "label": "GPU"
+   "fieldtype": "Link",
+   "label": "GPU",
+   "options": "IT Assets GPU Type"
   }
  ],
  "grid_page_length": 50,
@@ -144,7 +147,7 @@
    "link_fieldname": "asset"
   }
  ],
- "modified": "2025-12-15 14:50:51.015994",
+ "modified": "2025-12-15 15:50:02.309743",
  "modified_by": "Administrator",
  "module": "It Egygab",
  "name": "IT Assets",

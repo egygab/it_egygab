@@ -19,6 +19,7 @@
  ],
  "fields": [
   {
+   "columns": 3,
    "fieldname": "full_name",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -82,7 +83,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-15 14:44:13.835940",
+ "modified": "2025-12-15 15:06:24.645521",
  "modified_by": "Administrator",
  "module": "It Egygab",
  "name": "IT Asset User",
