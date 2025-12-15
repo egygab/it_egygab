@@ -8,11 +8,8 @@
  "engine": "InnoDB",
  "field_order": [
   "title",
-  "cpu",
-  "ram",
   "column_break_fxjo",
-  "type",
-  "gpu"
+  "type"
  ],
  "fields": [
   {
@@ -31,29 +28,14 @@
    "reqd": 1
   },
   {
-   "fieldname": "cpu",
-   "fieldtype": "Data",
-   "label": "CPU"
-  },
-  {
-   "fieldname": "ram",
-   "fieldtype": "Data",
-   "label": "RAM"
-  },
-  {
    "fieldname": "column_break_fxjo",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "gpu",
-   "fieldtype": "Data",
-   "label": "GPU"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-15 10:25:54.238876",
+ "modified": "2025-12-15 11:57:04.755035",
  "modified_by": "Administrator",
  "module": "It Egygab",
  "name": "IT Asset Model",
