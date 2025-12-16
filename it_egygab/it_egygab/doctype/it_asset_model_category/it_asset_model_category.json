@@ -1,51 +1,28 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:title",
- "creation": "2025-12-14 13:38:21.351355",
+ "creation": "2025-12-16 14:23:40.019205",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title",
-  "type",
-  "column_break_fxjo",
-  "category"
+  "title"
  ],
  "fields": [
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "in_list_view": 1,
    "label": "Title",
-   "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "type",
-   "fieldtype": "Select",
-   "label": "Type",
-   "options": "Laptop\nPrinter\nDesktop\nWorkstation",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_fxjo",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "category",
-   "fieldtype": "Link",
-   "label": "Category",
-   "options": "IT Asset Model Category"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-16 14:24:35.814463",
+ "modified": "2025-12-16 14:25:41.199154",
  "modified_by": "Administrator",
  "module": "It Egygab",
- "name": "IT Asset Model",
+ "name": "IT Asset Model Category",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
