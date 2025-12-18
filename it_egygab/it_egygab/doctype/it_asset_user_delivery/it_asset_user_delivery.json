@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DLV-{YY}-{MM}-{#####}",
+ "creation": "2025-12-17 10:38:03.226598",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3vbh",
+  "amended_from",
+  "it_asset_user",
+  "column_break_otcs",
+  "user_branch",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3vbh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "IT Asset User Delivery",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "it_asset_user",
+   "fieldtype": "Link",
+   "label": "IT Asset User",
+   "options": "IT Asset User"
+  },
+  {
+   "fieldname": "column_break_otcs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "it_asset_user.user_branch",
+   "fieldname": "user_branch",
+   "fieldtype": "Link",
+   "label": "User Branch",
+   "options": "Branch"
+  },
+  {
+   "fetch_from": "it_asset_user.location",
+   "fetch_if_empty": 1,
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "IT Asset Location"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-12-17 10:46:24.372886",
+ "modified_by": "Administrator",
+ "module": "It Egygab",
+ "name": "IT Asset User Delivery",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

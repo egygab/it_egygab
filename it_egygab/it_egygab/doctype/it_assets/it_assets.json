@@ -31,7 +31,7 @@
    "fieldname": "type",
    "fieldtype": "Select",
    "label": "Type",
-   "options": "Laptop\nPrinter\nDesktop",
+   "options": "Laptop\nPrinter\nDesktop\nWorkstation",
    "read_only": 1
   },
   {
@@ -147,7 +147,7 @@
    "link_fieldname": "asset"
   }
  ],
- "modified": "2025-12-16 14:27:16.841346",
+ "modified": "2025-12-18 11:51:44.616357",
  "modified_by": "Administrator",
  "module": "It Egygab",
  "name": "IT Assets",
